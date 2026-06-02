@@ -9,6 +9,11 @@ export default function MeetsPage() {
       <TopHeader title="Meets" />
 
       <main className="p-4 container">
+        <section className="hero mb-5">
+          <h1>Meets</h1>
+          <p>Browse upcoming sessions, manage your queue invitations, and keep the club schedule close.</p>
+        </section>
+
         <div className="tab-nav mb-4">
           <button className="tab-btn active">Upcoming</button>
           <button className="tab-btn">My Meets</button>
@@ -23,6 +28,6 @@ export default function MeetsPage() {
       </main>
 
       <BottomNav />
-		</div>
-	);
+    </div>
+  );
 }
