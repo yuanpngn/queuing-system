@@ -1,0 +1,9 @@
+:root{
+  --bg:#0a0f0a;
+  --muted:rgba(255,255,255,0.45);
+  --dlsu:#1B6B35;
+}
+body{background:var(--bg);color:#fff}
+.container{max-width:420px;margin:0 auto}
+.card{background:linear-gradient(180deg,#0d3d1e 0%,#071006 100%);border-radius:14px;padding:12px;border:1px solid rgba(255,255,255,0.03)}
+.small{font-size:12px;color:var(--muted)}
